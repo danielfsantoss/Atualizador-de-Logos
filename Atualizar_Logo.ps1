@@ -16,7 +16,7 @@ for($l=0;$l-lt$list_arq.Length;$l++){
         }else{
             $j = "00$i"
         }
-            if((($i -ne 5) -and ($i -ne 7) -and ($i -ne 11) -and ($i -ne 14))){
+            if((($i -ne 5) -and ($i -ne 7) -and ($i -ne 11) -and ($i -ne 14))){ # Esse if é responsável por manter os pontos como exceção, que não vão utilizar as logos importadas.
             # del ("C:\Chianca\NFE_Emissao$j\Danfe\imp") -Force
             # mkdir ("C:\Chianca\NFE_Emissao$j\Danfe\imp") -Force
             # mkdir ("C:\CHIANCA\0039$j\") -Force
